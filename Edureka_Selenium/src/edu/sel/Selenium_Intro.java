@@ -16,6 +16,7 @@ public class Selenium_Intro {
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.amazon.in/");
+		System.out.println("successful");
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("PS4 Pro");
 		driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
 		
